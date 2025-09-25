@@ -25,4 +25,5 @@ for row in table.find_all('tr'):
         
 weather_records = pd.DataFrame(data=records, columns=columns_head) # DataFrame
 
+# mostrar primeros 5
 print(weather_records.head())
